@@ -228,7 +228,7 @@ class Track():
         anchor="SO"
         
         # Opening file
-        f = open("C:/users/robin/Desktop/freeriderhd/assets/"+asset_name+".txt", "r")
+        f = open(asset_name, "r")
         raw_drawing = f.readline()[:-2]
         f.close()
         
